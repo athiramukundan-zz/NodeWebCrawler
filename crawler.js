@@ -1,4 +1,3 @@
-//TODO:ERROR HANDLING
 
 function Crawler()
 {
