@@ -7,3 +7,8 @@ NodeWebCrawler consists of 2 main files-
 Can crawl for anything in a page based on the regular expression provided in it's init method. NodeWebCrawler uses it to find links in a given page.
 #####b) linkCrawler.js -
 Contains logic to recursively call links from pre-found links to retrieve the required number of links.
+To change the number of links to crawl for, edit depth/depthRemaing variable in the 1st line of the file. Default value is set to 150.
+To change the start url, edit the urlToCrawl variable. Default is "https://www.facebook.com".
+
+####Usage
+node LinkCrawler.js
